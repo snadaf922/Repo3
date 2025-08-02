@@ -1,7 +1,7 @@
 # Use official Python image as base
 FROM python:3
 
-COPY ..
+COPY ./app
 
 # Run Django commands
 RUN python manage.py migrate
